@@ -32,7 +32,7 @@ def lambda_handler(event, context):
     #     print(e)
 
     #     raise e
-    print("Hi")
+    print("Hi updated")
     return {
         "statusCode": 200,
         "body": json.dumps({
